@@ -12,7 +12,7 @@ from ml.llm_client import llm
 from telebot.states.asyncio.middleware import StateMiddleware
 
 
-@BOT.message_handler(commands=['start'])
+@BOT.message_handler(commands=['start', 'help'])
 async def start_message(message: telebot.types.Message):
     logger.info(f"start_message")
 
