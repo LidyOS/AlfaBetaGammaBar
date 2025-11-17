@@ -1,0 +1,8 @@
+requests
+typing
+fastapi
+openai
+uvicorn
+python-dotenv
+telebot
+aiohttp
